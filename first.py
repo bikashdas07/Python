@@ -1,0 +1,5 @@
+l= (3, 6, 9, 12, 15)
+print("Original tuple: ", l)
+triple = map(lambda x: x*3, l)
+print("The triplet tuple is: ")
+print(list(triple))

@@ -1,0 +1,5 @@
+j = open("2.jpg","rb")
+bytes = j.read()
+j1 = open("1.jpg","wb")
+j1 . write(bytes)
+j1 . close()
